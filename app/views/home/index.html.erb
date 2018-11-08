@@ -1,0 +1,24 @@
+<body>
+  <h1>Bienvenu sur Crypto!</h1>
+  <p>
+    Choisissez la crypto a analyser</br>
+    <form action= "/" method = "get">
+      <select name="crypto">
+        <% @cryptos.each do |crypto|%>
+        <option value="<%=crypto.name%>"><%=crypto.name%></option>
+        <%end%>
+      </select>
+    </br>
+  </p>
+</br>
+<input type="submit">
+</form>
+<% if @crypto %>
+<h3>
+  <%= @crypto.name %>
+  -
+  <%= @crypto.value %>
+</h3>
+<% end %>
+</body>
+</html>

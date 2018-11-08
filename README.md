@@ -1,25 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Crypto par Yossi Capelluto pour THP.
+Ce site contient un menu de selection lié a un scrapper, choisissez une crypto et decouvrez son prix!
 
-Things you may want to cover:
 
-* Ruby version
+Version : Ruby 2.5.1, rails 5.2.1.
 
-* System dependencies
+Pour une utilisation locale:
 
-* Configuration
+* git clone https://github.com/CapellutoY/crypto.git
 
-* Database creation
+* bundle install
 
-* Database initialization
+* rails db:create
 
-* How to run the test suite
+* rails db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+* rails server
 
-* Deployment instructions
+* entrer http://localhost:3000/ dans votre navigateur
 
-* ...
 # crypto
